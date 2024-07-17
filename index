@@ -1,0 +1,48 @@
+
+<html lang="en" class="no-js">
+   <head>
+      <meta charset="utf-8">
+	  <title>Comparar seguros de auto en México</title>
+<meta name="keywords" content="car, insurance, compare, comparison, site, Mexico," />
+<meta name="description" content="Comparar seguros de auto en México" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <style>
+      html body {width: 100%;height: 100%;padding: 0px;margin: 0px;overflow: hidden;font-family: arial;font-size: 10px;color: #6e6e6e;background-color: #000;} #preview-frame {width: 100%;background-color: #fff;}</style>
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script>
+         //function to fix height of iframe!
+         var calcHeight = function() {
+           //var headerDimensions = 0; //$('#header-bar').height();
+           $('#preview-frame').height($(window).height());
+         }
+         
+         $(document).ready(function() {
+           calcHeight();
+           /*$('#header-bar a.close').mouseover(function() {
+             $('#header-bar a.close').addClass('activated');
+           }).mouseout(function() {
+             $('#header-bar a.close').removeClass('activated');
+           });*/
+         }); 
+         
+         $(window).resize(function() {
+           calcHeight();
+         }).load(function() {
+           calcHeight();
+         });
+      </script>
+	  
+	  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+   </head>
+   <body>
+      <iframe id="preview-frame" src="https://seguros-auto.rastreator.mx/cotizador?utm_source=seguros-auto.mx&amp;utm_medium=whitelabel&utm_campaign=Home" name="preview-frame" frameborder="0" noresize="noresize" style="height: 902px;">
+      </iframe>
+   </body>
+</html>
